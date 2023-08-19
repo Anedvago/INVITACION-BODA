@@ -24,7 +24,7 @@ main {
 p {
   position: absolute;
   z-index: 2;
-  top: 65vh;
+  top: 60vh;
   width: 100vw;
   font-family: 'Dancing Script', cursive;
   color: #536938;
