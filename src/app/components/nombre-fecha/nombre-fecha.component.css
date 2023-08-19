@@ -1,0 +1,44 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+}
+#ramas-arriba {
+  width: 100vw;
+  position: absolute;
+  top: -27px;
+  z-index: 1;
+}
+p {
+  position: absolute;
+  z-index: 1;
+  top: 25vh;
+  left: 5vw;
+  right: 5vw;
+  width: 90vw;
+  font-family: 'Dancing Script', cursive;
+  color: #536938;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#calendario {
+  position: absolute;
+  top: 40vh;
+  width: 80vw;
+  left: 10vw;
+  right: 10vw;
+  z-index: 1;
+}
+#ramas-abajo {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}

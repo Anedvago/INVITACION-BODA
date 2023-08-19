@@ -1,0 +1,44 @@
+app-logo {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.espaciador {
+  position: absolute;
+  height: 10vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.one {
+  top: 100vh;
+  z-index: 1;
+}
+app-foto-versiculo {
+  position: absolute;
+  top: 110vh;
+  height: 100vh;
+  overflow: hidden;
+}
+.two {
+  top: 210vh;
+  z-index: 1;
+}
+app-nombre-fecha {
+  position: absolute;
+  top: 220vh;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0;
+}
+.three {
+  top: 320vh;
+  z-index: 1;
+}
+app-consejos {
+  position: absolute;
+  top: 330vh;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0;
+}

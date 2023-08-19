@@ -1,0 +1,42 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+}
+#ramas-arriba {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+#logo {
+  position: absolute;
+  top: 15vh;
+  left: 5vw;
+  right: 5vw;
+  z-index: 0;
+  width: 90vw;
+}
+p {
+  position: absolute;
+  z-index: 2;
+  top: 65vh;
+  width: 100vw;
+  font-family: 'Dancing Script', cursive;
+  color: #536938;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#ramas-abajo {
+  width: 100vw;
+  position: absolute;
+  bottom: -80px;
+  z-index: 1;
+}
