@@ -1,0 +1,24 @@
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    position: relative;
+}
+img{
+    width: 100vw;
+}
+.ramas{
+    position: absolute;
+}
+.ramas-arriba{
+    top: 0;
+}
+.ramas-abajo{
+    bottom: 0;
+}
+.crop-88{
+    bottom: -88px;
+}
+.crop{
+    top: -35px;
+}

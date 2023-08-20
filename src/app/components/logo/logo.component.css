@@ -1,4 +1,4 @@
-main {
+/* main {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -39,4 +39,24 @@ p {
   position: absolute;
   bottom: -80px;
   z-index: 1;
+}
+ */
+ #logo {
+  position: absolute;
+  top: 10vh;
+  z-index: -1;
+  width: 100vw;
+}
+p {
+  position: absolute;
+  z-index: 2;
+  top: 61vh;
+  width: 100vw;
+  font-family: 'Dancing Script', cursive;
+  color: #536938;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

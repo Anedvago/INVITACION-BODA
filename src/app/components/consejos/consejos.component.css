@@ -1,4 +1,4 @@
-main {
+/*  main {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -75,8 +75,6 @@ button span {
 }
 .time {
   font-size: 16px;
-  /* position: absolute;
-  top: 48vh; */
 }
 .mid {
   width: 316px;
@@ -98,4 +96,86 @@ button span {
   position: absolute;
   bottom: -80px;
   z-index: 1;
+}
+ 
+ */
+main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  padding-top: 15vh;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  text-align: center;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.green {
+  color: #536938;
+}
+
+.black {
+  color: black;
+}
+.white {
+  color: white;
+
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50%;
+  width: 30vw;
+  height: 30vw;
+  font-family: 'Dancing Script', cursive;
+  color: #536938;
+  font-size: 16px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+button span {
+  font-size: 50px;
+}
+
+.cont-title .green{
+width: 177px;
+}
+
+
+.cont-green{
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 80vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #475b4f;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.cont-green p{
+  width: 181px;
+
+}
+.cont-message{
+  margin: 2vh 0 5vh 0;
+  width: 316px;
+}
+.cont-btn{
+  margin: 3vh 0 2vh 0;
 }

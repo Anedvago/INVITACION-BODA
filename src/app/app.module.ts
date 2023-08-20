@@ -9,6 +9,7 @@ import { EspaciadorComponent } from './components/espaciador/espaciador.componen
 import { FotoVersiculoComponent } from './components/foto-versiculo/foto-versiculo.component';
 import { NombreFechaComponent } from './components/nombre-fecha/nombre-fecha.component';
 import { ConsejosComponent } from './components/consejos/consejos.component';
+import { LayoutComponent } from './pages/layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ConsejosComponent } from './components/consejos/consejos.component';
     EspaciadorComponent,
     FotoVersiculoComponent,
     NombreFechaComponent,
-    ConsejosComponent
+    ConsejosComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,

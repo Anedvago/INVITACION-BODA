@@ -1,4 +1,4 @@
-app-logo {
+/* app-logo {
   position: absolute;
   top: 0;
   height: 100vh;
@@ -42,3 +42,15 @@ app-consejos {
   overflow: hidden;
   z-index: 0;
 }
+ */
+ main{
+  display: flex;
+  flex-direction: column;
+ }
+ app-espaciador{
+  z-index: 1;
+ }
+ app-consejos{
+  height: 100vh;
+  overflow: hidden;
+ }
