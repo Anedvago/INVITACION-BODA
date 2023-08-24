@@ -10,6 +10,17 @@ import { FotoVersiculoComponent } from './components/foto-versiculo/foto-versicu
 import { NombreFechaComponent } from './components/nombre-fecha/nombre-fecha.component';
 import { ConsejosComponent } from './components/consejos/consejos.component';
 import { LayoutComponent } from './pages/layout/layout.component';
+import { RecepcionComponent } from './components/recepcion/recepcion.component';
+import { ButtonLocationComponent } from './components/button-location/button-location.component';
+/* import { initializeApp,provideFirebaseApp } from '@angular/fire/app'; */
+import { environment } from '../environments/environment';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { InvitadosComponent } from './pages/invitados/invitados.component';
+import { TablaInvitadosComponent } from './components/tabla-invitados/tabla-invitados.component';
+import { FormularioInvitadosComponent } from './components/formulario-invitados/formulario-invitados.component';
+import { FormsModule } from '@angular/forms';
+/* import { provideFirestore,getFirestore } from '@angular/fire/firestore'; */
 
 @NgModule({
   declarations: [
@@ -20,11 +31,19 @@ import { LayoutComponent } from './pages/layout/layout.component';
     FotoVersiculoComponent,
     NombreFechaComponent,
     ConsejosComponent,
-    LayoutComponent
+    LayoutComponent,
+    RecepcionComponent,
+    ButtonLocationComponent,
+    InvitadosComponent,
+    TablaInvitadosComponent,
+    FormularioInvitadosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideFirestore(() => getFirestore()),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

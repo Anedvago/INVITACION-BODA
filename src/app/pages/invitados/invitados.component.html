@@ -1,0 +1,52 @@
+<main>
+    <h2>Invitados para la recepción</h2>
+    <app-tabla-invitados [invitados]="invitadosRecepcion!"></app-tabla-invitados>
+    <h2>Invitados para los consejos</h2>
+    <app-tabla-invitados [invitados]="invitadosConsejos!"></app-tabla-invitados>
+    <h2>Insertar invitado</h2>
+    <app-formulario-invitados></app-formulario-invitados>
+    <h2>Indicadores</h2>
+    <div>
+        <span>
+            <h1>
+                {{totalInvitadosRecepcion}}
+            </h1>
+            Invitados para Recepción
+        </span>
+        <span>
+            <h1>
+                {{totalInvitadosConsejos}}
+            </h1>
+            Invitados para Consejos
+        </span>
+    </div>
+    <div>
+        <span>
+            <h1>
+                {{totalInvitadosRecepcionConfirmados1}}
+            </h1>
+            1 Confirmacion Recepción
+        </span>
+        <span>
+            <h1>
+                {{totalInvitadosConsejosConfirmados1}}
+            </h1>
+            1 Confirmacion Consejos
+        </span>
+    </div>
+
+    <div>
+        <span>
+            <h1>
+                {{totalInvitadosRecepcionConfirmados2}}
+            </h1>
+            2 Confirmacion Recepción
+        </span>
+        <span>
+            <h1>
+                {{totalInvitadosConsejosConfirmados2}}
+            </h1>
+            2 Confirmacion Consejos
+        </span>
+    </div>
+</main>

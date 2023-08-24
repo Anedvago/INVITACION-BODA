@@ -1,0 +1,33 @@
+form{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 35vh;
+   /*  width: 100vw; */
+}
+label{
+    width: 90%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+button {
+    width: 50vw;
+    height: 28px;
+    background-color: #475B4F;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-family: Dancing Script;
+    font-size: 16px;
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 5px 5px 5px;
+}

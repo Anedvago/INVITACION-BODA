@@ -1,0 +1,15 @@
+<form>
+    <label>
+        <strong>Nombre</strong>
+        <input type="text" [(ngModel)]="nombre" name="nombre">
+    </label>
+    <label>
+        <strong>Tipo</strong>
+        <select [(ngModel)]="tipo" name="tipo">
+            <option value="">Escoja una opcion</option>
+            <option value="RECEPCIÓN">Recepción</option>
+            <option value="CONSEJOS">Consejos</option>
+        </select>
+    </label>
+    <button (click)="insertarInvitado()">Insertar</button>
+</form>

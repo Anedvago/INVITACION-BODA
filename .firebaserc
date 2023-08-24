@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "invitacion-boda-89edc"
+  },
+  "targets": {
+    "invitacion-boda-89edc": {
+      "hosting": {
+        "invitacion-boda": [
+          "invitacion-boda-89edc"
+        ]
+      }
+    }
   }
 }

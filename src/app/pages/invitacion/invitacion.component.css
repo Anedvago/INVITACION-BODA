@@ -43,14 +43,21 @@ app-consejos {
   z-index: 0;
 }
  */
- main{
+main {
   display: flex;
   flex-direction: column;
- }
- app-espaciador{
+}
+
+app-espaciador {
   z-index: 1;
- }
- app-consejos{
+}
+
+app-consejos {
   height: 100vh;
   overflow: hidden;
- }
+}
+
+app-recepcion {
+  height: 100vh;
+  overflow: hidden;
+}

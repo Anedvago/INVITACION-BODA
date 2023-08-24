@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-nombre-fecha',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./nombre-fecha.component.css']
 })
 export class NombreFechaComponent {
-
+  @Input()
+  public name: string = "";
 }

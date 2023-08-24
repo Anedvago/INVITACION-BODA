@@ -5,7 +5,7 @@
   <img id="calendario" src="assets/img/calendario.webp" />
 </main>
  -->
- <app-layout nameImg1="ramas_arriba_2.webp" nameImg2="ramas_abajo_2.webp" crop1="crop">
-  <p>Maria Benavides, queremos compartir contigo la alegría de nuestro día.</p>
+<app-layout nameImg1="ramas_arriba_2.webp" nameImg2="ramas_abajo_2.webp" crop1="crop">
+  <p *ngIf="name != undefined">{{name | titlecase}}, <br> queremos compartir contigo la alegría de nuestro día.</p>
   <img id="calendario" src="assets/img/calendario.webp" />
- </app-layout>
+</app-layout>

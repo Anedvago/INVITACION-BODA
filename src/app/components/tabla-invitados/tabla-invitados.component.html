@@ -1,0 +1,28 @@
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Invitado A</th>
+            <th>Primera Confirmación</th>
+            <th>Segunda Confirmación</th>
+            <th>Link de invitacion</th>
+        </tr>
+    </thead>
+    <tbody *ngIf="invitados != undefined">
+        <tr *ngFor="let invitado of invitados">
+            <td>{{invitado.nombre}}</td>
+            <td>{{invitado.tipo | titlecase}}</td>
+            <td *ngIf="invitado.fecha_confirmacion_1 != undefined">{{invitado.fecha_confirmacion_1}}</td>
+            <td *ngIf="invitado.fecha_confirmacion_1 == undefined">Aun sin confirmar</td>
+            <td *ngIf="invitado.fecha_confirmacion_2 != undefined">{{invitado.fecha_confirmacion_2}}</td>
+            <td *ngIf="invitado.fecha_confirmacion_2 == undefined">Aun sin confirmar</td>
+            <td><a *ngIf="invitado.tipo == 'RECEPCIÓN'" target="_blank"
+                    href="https://invitacion-boda-89edc.web.app/invitacion/2/{{invitado.id}}">link
+                    {{invitado.nombre}}</a>
+                <a *ngIf="invitado.tipo == 'CONSEJOS'" target="_blank"
+                    href="https://invitacion-boda-89edc.web.app/invitacion/1/{{invitado.id}}">link
+                    {{invitado.nombre}}</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
